@@ -8,4 +8,9 @@
     --font-primary:"nunito";
     --font-secondary: "roboto";  
 }
-
+.bold{
+    font-weight: 700;    
+    }
+    .bolder{
+    font-weight: bolder;    
+    }
