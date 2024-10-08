@@ -2,172 +2,151 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Barbas | Inicio</title>
-  <link rel="stylesheet" href="./css/main.css">
-  <link rel="stylesheet" href="./css/home.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbas | Inicio</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/home.css">
 </head>
 
 <body>
 
-  <header>
-    <div class="navbox">
-      <nav class="navbar">
-        <ul class="nav-links">
-          <li><a href="#home">Início</a></li>
-          <li><a href="#services">Serviços</a></li>
-          <li><a href="#about">Sobre Nós</a></li>
-          <li><a href="#contact">Contato</a></li>
-        </ul>
-      </nav>
-      <div class="header-content ">
-        <div class="header-title">
-          <div class="div-hero">
+    <header>
+        <div class="navbox">
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#about">Sobre Nós</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="header-content ">
+                <div class="header-title">
+                    <div class="div-hero">
 
-            <h1>
-              Barba`s
-            </h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta velit libero voluptatum
-              suscipit officiis architecto assumenda nesciunt corporis quod aspernatur, facere aliquam? Ipsa
-              harum fugiat nihil asperiores tempore inventore corporis.
-            </p>
-          </div>
+                        <h1>
+                            Barba`s
+                        </h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta velit libero voluptatum
+                            suscipit officiis architecto assumenda nesciunt corporis quod aspernatur, facere aliquam?
+                            Ipsa
+                            harum fugiat nihil asperiores tempore inventore corporis.
+                        </p>
+                    </div>
 
-          <div class="logo">
-            <img src="./imagem/barbershop-logo.jpg" alt="logo">
+                    <div class="logo">
+                        <img src="./imagem/barbershop-logo.jpg" alt="logo">
 
-          </div>
-  </header>
+                    </div>
+    </header>
 
-  <section class="text-white">
-    <div class="contact">
-      <div class="contact-map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.71849357095!2d-43.53271609352779!3d-22.923751791521333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be6d2131c7ab9%3A0x2f5512e43d1ccc6b!2sR.%20China%2C%2014%20-%20Campo%20Grande%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2023017-060!5e0!3m2!1spt-BR!2sbr!4v1728345022722!5m2!1spt-BR!2sbr"
-          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </iframe>
-        <div>
-          <p>
-            <b>R. China, 14 - Campo Grande</b>
-          </p>
-          <p>
-            Tel: <span class="bold numberPhone">21 988587032</span>
-          </p>
+    <section class="text-white">
+        <div class="contact">
+            <div class="contact-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.71849357095!2d-43.53271609352779!3d-22.923751791521333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be6d2131c7ab9%3A0x2f5512e43d1ccc6b!2sR.%20China%2C%2014%20-%20Campo%20Grande%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2023017-060!5e0!3m2!1spt-BR!2sbr!4v1728345022722!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </iframe>
+                <div>
+                    <p>
+                        <b>R. China, 14 - Campo Grande</b>
+                    </p>
+                    <p>
+                        Tel: <span class="bold numberPhone">21 988587032</span>
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <!-- <label for="nome">Nome</label> -->
+                        <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                    </div>
+
+                    <div class="form-group">
+                        <!-- <label for="email">E-mail</label> -->
+                        <input type="text" name="email" id="email" placeholder="E-mail ou telefone" required>
+                    </div>
+
+                    <div class="form-group">
+                        <select name="assunto" aria-placeholder="Assunto">
+                            <option disabled selected>Assunto</option>
+                            <option value="contato">Contato</option>
+                            <option value="reclame">Reclamação</option>
+                            <option value="sugent">Sugestão</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea name="mensagem" id="mensagem" rows="5" placeholder="Mensagem" required></textarea>
+                    </div>
+
+                    <div class="form-group right">
+                        <!-- <input type="submit" value="Enviar"> -->
+                        <button>Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="card-container ">
+
+        <div class="card">
+            <div class="div-img"> <img src="./imagem/Barba.jpg" alt="">
+            </div>
+
+            <div class="card-content">
+                <h2>Barba</h2>
+                <p class="descricao">É uma forma de expressar a personalidade, realçar os traços do rosto e acompanhar
+                    as últimas tendências da moda masculina.</p>
+            </div>
         </div>
 
-      </div>
+        <div class="card">
 
-      <div class="contact-form">
-        <form>
-          <div class="form-group">
-            <!-- <label for="nome">Nome</label> -->
-            <input type="text" name="nome" id="nome" placeholder="Nome" required>
-          </div>
+            <div class="div-img img-taper"> <img src="./imagem/taper-fade.jpg" alt="">
+            </div>
 
-          <div class="form-group">
-            <!-- <label for="email">E-mail</label> -->
-            <input type="text" name="email" id="email" placeholder="E-mail ou telefone" required>
-          </div>
+            <div class="card-content">
+                <h2>Taper fade</h2>
+                <p class="descricao">É uma forma de expressar a personalidade, realçar os traços do rosto e acompanhar
+                    as últimas tendências da moda masculina.</p>
+            </div>
+        </div>
 
-          <div class="form-group">
-            <select name="assunto" aria-placeholder="Assunto">
-              <option disabled selected>Assunto</option>
-              <option value="contato">Contato</option>
-              <option value="reclame">Reclamação</option>
-              <option value="sugent">Sugestão</option>
-            </select>
-          </div>
+        <div class="card">
 
-          <div class="form-group">
-            <textarea name="mensagem" id="mensagem" rows="5" placeholder="Mensagem" required></textarea>
-          </div>
+            <div class="div-img"> <img src="./imagem/Mid-fade.jpeg" alt="">
+            </div>
 
-          <div class="form-group right">
-            <!-- <input type="submit" value="Enviar"> -->
-            <button>Enviar</button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </section>
-  <section class="card-container ">
+            <div class="card-content">
+                <h2>Mid fade</h2>
+                <p class="descricao">É uma forma de expressar a personalidade, realçar os traços do rosto e acompanhar
+                    as últimas tendências da moda masculina.</p>
+            </div>
+        </div>
 
-    <div class="card">
-      <div class="div-img"> <img src="./imagem/Barba.jpg" alt="">
-      </div>
+        <div class="card">
 
-      <div class="card-content">
-        <h2>Barba</h2>
-        <p class="descricao">É uma forma de expressar a personalidade, realçar os traços do rosto e acompanhar
-          as últimas tendências da moda masculina.</p>
-      </div>
-    </div>
+            <div class="div-img"> <img src="./imagem/Burst-fade.jpg" alt="">
+            </div>
 
+            <div class="card-content">
+                <h2>Burst fade</h2>
+                <p class="descricao">É uma forma de expressar a personalidade, realçar os traços do rosto e acompanhar
+                    as últimas tendências da moda masculina.</p>
+            </div>
+        </div>
+    </section>
 
-
-
-
-    <div class="card">
-
-      <div class="div-img img-taper"> <img src="./imagem/taper-fade.jpg" alt="">
-      </div>
-
-      <div class="card-content">
-        <h2>Taper fade</h2>
-        <p class="descricao">É uma forma de expressar a personalidade, realçar os traços do rosto e acompanhar
-          as últimas tendências da moda masculina.</p>
-      </div>
-    </div>
-
-
-
-
-
-
-
-    <div class="card">
-
-      <div class="div-img"> <img src="./imagem/Mid-fade.jpeg" alt="">
-      </div>
-
-      <div class="card-content">
-        <h2>Mid fade</h2>
-        <p class="descricao">É uma forma de expressar a personalidade, realçar os traços do rosto e acompanhar
-          as últimas tendências da moda masculina.</p>
-      </div>
-    </div>
-
-
-
-
-
-
-
-    <div class="card">
-
-      <div class="div-img"> <img src="./imagem/Burst-fade.jpg" alt="">
-      </div>
-
-      <div class="card-content">
-        <h2>Burst fade</h2>
-        <p class="descricao">É uma forma de expressar a personalidade, realçar os traços do rosto e acompanhar
-          as últimas tendências da moda masculina.</p>
-      </div>
-    </div>
-
-
-
-
-
-
-
-  </section>
-  <footer>
-  </footer>
+    <footer>
+    </footer>
 
 </body>
 
