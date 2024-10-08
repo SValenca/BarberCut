@@ -244,5 +244,29 @@ body {
       margin: 0;
       padding: 0;
   }
-  
-  
+  /* comentarios */
+  .menu-container{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1280px;
+    padding: 30px;
+    margin: 0 auto;
+}
+.menu-itens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 15px;
+    
+}
+
+.menu-itens img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    border: solid 2px var(--yellow);
+}
