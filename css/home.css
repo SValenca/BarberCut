@@ -91,15 +91,15 @@ body {
   }
   
   /* Area de contato */
-  .contact {
+  .contact {/*pai*/
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .text-white {
+  .text-white {/*endereço/tell*/
     color:var(--yellow);
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {/*mudanças para tela 768px*/
     .contact {
       display: flex;
       flex-direction: column;
@@ -140,7 +140,7 @@ body {
     }
   }
   
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {/*mudanças para tela 768px*/
     .contact-form {
       width: 100%;
     }
@@ -179,7 +179,7 @@ body {
   
   .form-group button:hover {
     background-color: var(--yellow);
-    color: black;
+    color: var(--black);
   }
   
   .left {
