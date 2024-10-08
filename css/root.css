@@ -1,0 +1,33 @@
+:root {
+    --yellow: #fcc82b;
+    --black: #000000;
+    --white: #ffffff;
+    --shadow: rgba(0, 0, 0, 0.5);
+    --font-size: 14pt;
+    --font-primary: "nunito";
+    --font-secondary: "roboto";
+  }
+  
+  /* Reset: limpa stilo dos navegadores */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Itens comuns no site */
+  body{
+    background-color: #000000;
+  }
+  
+  .bold{
+    font-weight: 600;
+  }
+  
+  .bolder{
+    font-weight: 900;
+  }
+  a {
+    text-decoration: none;
+    color: var(--black);
+  }
