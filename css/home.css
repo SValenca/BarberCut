@@ -49,7 +49,7 @@ body {
     height: 250px;
     width: 250px;
     border-radius: 50%;
-    border: solid 4px var(--white);
+    border: solid 2px var(--yellow);
   }
   
   .navbox {
@@ -97,18 +97,21 @@ body {
     align-items: center;
   }
   .text-white {
-    color: white;
+    color:var(--yellow);
   }
   @media screen and (max-width: 768px) {
     .contact {
       display: flex;
       flex-direction: column;
-      width: 100%;
+      width: 90%;
       justify-content: center;
       align-items: center;
     }
     iframe{
-      width: 98%;
+      width: 90%;
+      
+      
+    
     }
     .contact-form {
       width: 100%;
@@ -160,9 +163,10 @@ body {
   .form-group input,
   .form-group select,
   .form-group textarea {
-    padding: 8px;
+    padding: 9px;
     width: 100%;
     border-radius: 8px;
+    border:solid var(--yellow) 2px;
   }
   
   .form-group button {
@@ -203,11 +207,13 @@ body {
     flex-direction: column;
     display: flex;
     margin: 10px;
-    border-radius: 16px;
+    border-radius: 10px;
     box-shadow: var(--shadow);
     cursor: pointer;
     width: 330px;
     overflow: hidden;
+    border:solid var(--yellow) 2px;
+    
   }
   .div-img {
     height: 350px;
