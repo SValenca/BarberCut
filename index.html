@@ -8,21 +8,24 @@
   <title>Barbas | Inicio</title>
   <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/home.css">
+  <script src="./js/main.js" defer></script>
 </head>
 
 <body>
-
+  
+  <!-- <nav class="navbar"> -->
   <header>
+    <div id="navbar-component"></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#about">Sobre Nós</a></li>
+        <li><a href="#contact">Contato</a></li>
+        <li><a href="login.html">Entrar</a></li>
+      </ul>
+    </nav>
     <div class="navbox">
-      <nav class="navbar">
-        <ul class="nav-links">
-          <li><a href="#home">Início</a></li>
-          <li><a href="#services">Serviços</a></li>
-          <li><a href="#about">Sobre Nós</a></li>
-          <li><a href="#contact">Contato</a></li>
-        </ul>
-      </nav>
-      <div class="header-content ">
+    <div class="header-content ">
         <div class="header-title">
           <div class="div-hero">
 
@@ -41,7 +44,7 @@
             
           </div>
         </header>
-        <section class="bg-black container">
+        <section class="bg-black container" id="about">
           <section class="menu-container">
               <div class="menu-itens">
                   <img src="./imagem/barbershop-logo.jpg" alt="img"/>
@@ -58,7 +61,7 @@
           </section>
       </section>
         <section class="text-white">
-          <div class="contact">
+          <div class="contact"id="contact">
             <div class="contact-map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d772.5149937284074!2d-43.531305475303775!3d-22.923648029246326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be6d2131c7ab9%3A0x2f5512e43d1ccc6b!2sR.%20China%2C%2014%20-%20Campo%20Grande%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2023017-060!5e0!3m2!1spt-BR!2sbr!4v1728596382104!5m2!1spt-BR!2sbr" ></iframe>
                            
@@ -109,7 +112,7 @@
     </div>
   </section>
   
-  <section class="card-container ">
+  <section class="card-container "id="services">
   <div class="card">
     <div class="div-img"> <img src="./imagem/Barba.jpg" alt="">
       </div>
