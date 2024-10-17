@@ -1,0 +1,46 @@
+header{
+    background-color: var(--shadow);
+}
+body{
+    background-image: url(../imagem/background.jpeg);
+    background-position: top;
+    background-size: cover;
+}
+/* form */
+.contact-form {
+   
+    background-color: var(--shadow);
+    padding: 40px;
+    width: 50%;
+
+  }
+.form-group{
+    width: 100%;
+    padding: 5px;
+}
+.form-group input {
+  padding: 8px;
+  width: 100%;
+  border-radius: 8px;
+}
+.form-group button {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .form-group button:hover {
+    background-color: var(--yellow);
+  }
+  a{
+    color: var(--white);
+    
+  }
+  a:hover{
+    color: var(--yellow);
+  }
+  .text-form{
+    color: var(--white);
+  }
