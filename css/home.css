@@ -5,6 +5,8 @@ header {
   background-position: top;
   background-size: cover;
   min-height: 400px;
+  /*z-index:;*/
+  
 }
 body{
   background-color:var(--gray);
