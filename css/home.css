@@ -1,15 +1,18 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css");
 @import"./form.css";
+
 header {
   background-image: url(../imagem/background.jpeg);
-  box-shadow:var(--shadow-yellow);
+  box-shadow: var(--shadow-yellow);
   background-position: top;
   background-size: cover;
   min-height: 400px;
-}
-body{
-  background-color:var(--gray);
+  z-index: -1
 }
 
+body {
+  background-color: var(--gray);
+}
 
 .logo img {
   height: 250px;
@@ -59,7 +62,6 @@ header .logo {
 .text-map {
   color: var(--white);
   text-shadow: 2px 1px var(--black);
-
 }
 
 .contact-map,
@@ -72,8 +74,9 @@ header .logo {
 .comentario {
   background-image: url(../imagem/background.jpeg);
   background-position: bottom;
-  border:outset 4px var(--shadow)
+  border: outset 4px var(--shadow)
 }
+
 .menu-container {
   display: flex;
   gap: 20px;
@@ -89,7 +92,7 @@ header .logo {
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  color: white;
+  color: var(--white);
   font-size: 15px;
   width: 33.33%;
 }
@@ -102,8 +105,6 @@ header .logo {
   box-shadow: var(--shadow-yellow);
 }
 
-
-
 /* Servicos */
 .card-container {
   width: 100%;
@@ -114,10 +115,9 @@ header .logo {
   justify-content: center;
   background-image: url(../imagem/background.jpeg);
   background-position: top;
-  border:outset 4px var(--shadow);
+  border: outset 4px var(--shadow);
   padding: 80px 0;
 }
-
 
 .card {
   margin: 10px;
@@ -143,7 +143,6 @@ header .logo {
 }
 
 .card-content {
-
   width: 100%;
   height: 100%;
   display: flex;
@@ -157,8 +156,6 @@ header .logo {
   padding: 10px;
 }
 
-
-
 .card-content h2 {
   font-size: 24px;
   margin-bottom: 15px;
@@ -169,38 +166,70 @@ header .logo {
 
   margin-bottom: 15px;
 }
-@media(max-width:760px){
-  .header-content{
-      flex-direction: column-reverse;
-    } 
-    .contact{
-      display: flex;
-      flex-direction: column;
-    }
-    .contact-map,.contact-form{
-      width: 100%;
-      padding: 10%;
-    
-      
-    
-    }
-    .header-title,
-    header.logo{
-      width: 100%;
-      padding: 20px;
-      text-align: center;
-    }
-    .menu-itens{
-      width: 30.33%;
-      padding: 6%;
-      
-    }
-    .menu-itens img{
-      width: 100px;
-      height: 100px;
-    }
-    
-    
-    }
-  
- 
+
+/* telas */
+@media(max-width:760px) {
+  .header-content {
+    flex-direction: column-reverse;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-map,
+  .contact-form {
+    width: 100%;
+    padding: 10%;
+  }
+
+  .header-title,
+  header.logo {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .menu-itens {
+    width: 30.33%;
+    padding: 6%;
+  }
+
+  .menu-itens img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* bootstrap */
+/* NavBar */
+.navbar-nav li a {
+  color: var(--white);
+}
+
+.navbar-nav li:hover a,
+.navbar-nav li.active a {
+  color: var(--yellow);
+}
+
+.navbar-toggler {
+  color: var(--white);
+}
+
+.navbar-toggler-icon {
+  background-image: url(../imagem/barras-brancas.png);
+}
+.navbar-navbar-expand-lg{
+  background-color:var(--shadow);
+}
+
+
+/* card */
+.card {
+  background-color: var(--shadow);
+}
+
+a {
+  color: transparent;
+}

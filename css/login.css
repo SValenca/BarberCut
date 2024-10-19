@@ -1,40 +1,113 @@
 @import"./form.css";
-header{
-    background-color: var(--shadow);
+
+header {
+  background-color: var(--shadow);
 }
-body{
-    background-image: url(../imagem/background.jpeg);
-    background-position: top;
-    background-size: cover;
+
+body {
+  background-image: url(../imagem/background.jpeg);
+  background-position: top;
+  background-size: cover;
 }
-.form-access{
+
+.form-access {
   display: flex;
   justify-content: center;
   align-items: center;
-  height:calc(100vh - 72px);
+  height: calc(100vh - 72px);
 }
-.form-access form{
+
+.form-access form {
   width: 300px;
-  border:outset 4px var(--white);
+  border: outset 4px var(--white);
   border-radius: 8px;
   background-color: var(--shadow);
   padding: 20px;
   box-shadow: var(--shadow-yellow);
 }
-.form-access form p{
+
+.form-access form p {
   margin-top: 10px;
 }
-p{
+
+p {
   color: var(--white);
 }
-.text-form,a{
+
+.text-form,
+a {
   color: var(--white);
 }
 
 .text-form span a {
-  color: var(--yellow) 
+  color: var(--yellow)
 }
 
-a:hover{
+a:hover {
   color: var(--yellow);
+}
+
+/* bootstrap */
+/* NavBar */
+.navbar-nav li a {
+  color: var(--white);
+}
+
+.navbar-nav li:hover a,
+.navbar-nav li.active a {
+  color: var(--yellow);
+}
+
+.navbar-toggler {
+  color: var(--white);
+}
+
+.navbar-toggler-icon {
+  background-image: url(../imagem/barras-brancas.png);
+}
+
+/* card */
+.card {
+  background-color: var(--shadow);
+}
+
+a {
+  color: transparent
+}
+
+/* telas */
+@media(max-width:760px) {
+  .header-content {
+    flex-direction: column-reverse;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-map,
+  .contact-form {
+    width: 100%;
+    padding: 10%;
+
+  }
+
+  .header-title,
+  header.logo {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .menu-itens {
+    width: 30.33%;
+    padding: 6%;
+
+  }
+
+  .menu-itens img {
+    width: 100px;
+    height: 100px;
+  }
 }
