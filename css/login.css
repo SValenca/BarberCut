@@ -1,3 +1,4 @@
+@import"./form.css";
 header{
     background-color: var(--shadow);
 }
@@ -6,41 +7,34 @@ body{
     background-position: top;
     background-size: cover;
 }
-/* form */
-.contact-form {
-   
-    background-color: var(--shadow);
-    padding: 40px;
-    width: 50%;
-
-  }
-.form-group{
-    width: 100%;
-    padding: 5px;
+.form-access{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:calc(100vh - 72px);
 }
-.form-group input {
-  padding: 8px;
-  width: 100%;
+.form-access form{
+  width: 300px;
+  border:outset 4px var(--white);
   border-radius: 8px;
+  background-color: var(--shadow);
+  padding: 20px;
+  box-shadow: var(--shadow-yellow);
 }
-.form-group button {
-    background-color: var(--black);
-    color: var(--white);
-    padding: 10px 15px;
-    border-radius: 8px;
-    cursor: pointer;
-  }
+.form-access form p{
+  margin-top: 10px;
+}
+p{
+  color: var(--white);
+}
+.text-form,a{
+  color: var(--white);
+}
 
-  .form-group button:hover {
-    background-color: var(--yellow);
-  }
-  a{
-    color: var(--white);
-    
-  }
-  a:hover{
-    color: var(--yellow);
-  }
-  .text-form{
-    color: var(--white);
-  }
+.text-form span a {
+  color: var(--yellow) 
+}
+
+a:hover{
+  color: var(--yellow);
+}
