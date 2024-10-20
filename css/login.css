@@ -111,3 +111,18 @@ a {
     height: 100px;
   }
 }
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+      display: flex !important;
+      flex-basis: auto;
+      justify-content: center;
+    }
+}
+.row>* {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 0%;
+  padding-right: calc(var(--bs-gutter-x)* .5);
+  padding-left: calc(var(--bs-gutter-x)* .5);
+  margin-top: var(--bs-gutter-y);
+}
