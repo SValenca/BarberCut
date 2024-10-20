@@ -6,8 +6,8 @@ header {
   box-shadow: var(--shadow-yellow);
   background-position: top;
   background-size: cover;
-  min-height: 400px;
-  /*z-index:;*/
+  min-height: 300px;
+  /* z-index:; */
   
 }
 body{
