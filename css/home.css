@@ -6,17 +6,12 @@ header {
   box-shadow: var(--shadow-yellow);
   background-position: top;
   background-size: cover;
-<<<<<<< HEAD
-  min-height: 400px;
-  /* z-index: -1; */
-=======
   min-height: 300px;
   /* z-index:; */
   
 }
 body{
   background-color:var(--gray);
->>>>>>> 9a4f57da499c07638dfceb5631768b7af84a4dd0
 }
 
 body {
@@ -212,8 +207,6 @@ header .logo {
     height: 100px;
   }
 }
-<<<<<<< HEAD
-=======
 /* para deixar o navbar centralizado */
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
@@ -222,7 +215,6 @@ header .logo {
       justify-content: center;
     }
 }
->>>>>>> 9a4f57da499c07638dfceb5631768b7af84a4dd0
 
 /* bootstrap */
 /* NavBar */
@@ -254,10 +246,6 @@ header .logo {
 
 a {
   color: transparent;
-<<<<<<< HEAD
-}
-=======
 }
 
 
->>>>>>> 9a4f57da499c07638dfceb5631768b7af84a4dd0
