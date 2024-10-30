@@ -6,8 +6,17 @@ header {
   box-shadow: var(--shadow-yellow);
   background-position: top;
   background-size: cover;
+<<<<<<< HEAD
   min-height: 400px;
   /* z-index: -1; */
+=======
+  min-height: 300px;
+  /* z-index:; */
+  
+}
+body{
+  background-color:var(--gray);
+>>>>>>> 9a4f57da499c07638dfceb5631768b7af84a4dd0
 }
 
 body {
@@ -79,6 +88,7 @@ header .logo {
 
 .menu-container {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
   align-items: center;
@@ -125,7 +135,8 @@ header .logo {
   border: double 4px var(--yellow);
   box-shadow: var(--shadow-yellow);
   cursor: pointer;
-  width: 330px;
+  width:100%;
+  max-width: 330px;
   overflow: hidden;
 }
 
@@ -192,7 +203,7 @@ header .logo {
   }
 
   .menu-itens {
-    width: 30.33%;
+    width: 100%;
     padding: 6%;
   }
 
@@ -201,6 +212,17 @@ header .logo {
     height: 100px;
   }
 }
+<<<<<<< HEAD
+=======
+/* para deixar o navbar centralizado */
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+      display: flex !important;
+      flex-basis: auto;
+      justify-content: center;
+    }
+}
+>>>>>>> 9a4f57da499c07638dfceb5631768b7af84a4dd0
 
 /* bootstrap */
 /* NavBar */
@@ -232,4 +254,10 @@ header .logo {
 
 a {
   color: transparent;
+<<<<<<< HEAD
 }
+=======
+}
+
+
+>>>>>>> 9a4f57da499c07638dfceb5631768b7af84a4dd0
