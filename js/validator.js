@@ -37,7 +37,7 @@ function validateTel(){
     const element = document.querySelector('#telInput')
     const message = document.querySelector('#telHelp')
     element.addEventListener('keyup',(e) =>{
-        element.setAttribute('maxlenght','15')
+        element.setAttribute('maxlength','15')
         const value = e.target.value
         console.log(value)
         let error = ''
@@ -48,6 +48,24 @@ function validateTel(){
     message.innerHTML = error;
     })
 }
+function changeDocumentType(){
+    const documentType = document.querySelector('#documentInput');
+    const documentLabel = document.querySelector('documentLabel');
+    const documentInput = document.querySelector('documentInput')
+    document.addEventListener('change',()=>{
+        if (documentType.value === 'cpf'){
+            documentLabel.textContent = 'CPF';
+            documentInput.placeholder = 'Digite seu CPF';
+        }else{
+            documentLabel.textContent = 'CNPJ';
+            documentInput.placeholder = 'Digite seu CNPJ'
+        }
+    });
+}
+
+
+
+
 
 function validateRequired() {
     const elements = document.querySelectorAll("[required]")

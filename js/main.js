@@ -46,4 +46,15 @@ function navBarComponent() {
                 console.error("Erro ao montar a navbar: ", error);
             })
     }
-    
+    //Função para pegar os elementos
+function getElement(elementSelector) {
+    return document.querySelector(elementSelector)
+}
+
+//Função para preenche do conteudo do elemento
+function setContentElement(elementSelector, content) {
+    const element = getElement(elementSelector)
+    if (element) {
+        element.innerHTML = content
+    }
+}
