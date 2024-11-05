@@ -14,6 +14,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--shadow);
   height: calc(100vh - 72px);
 }
 

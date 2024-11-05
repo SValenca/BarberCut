@@ -29,12 +29,6 @@
     background-color: var(--yellow);
   }
   
-  .left {
-    display: flex;
-    justify-content: start;
-  }
-  
-  .right {
-    display: flex;
-    justify-content: end;
+  .form-group:focus{ 
+    box-shadow: 0 0 5px 5px var(--black);
   }
