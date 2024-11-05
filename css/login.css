@@ -14,6 +14,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--shadow);
   height: calc(100vh - 72px);
 }
 
@@ -49,22 +50,6 @@ a:hover {
 
 /* bootstrap */
 /* NavBar */
-.navbar-nav li a {
-  color: var(--white);
-}
-
-.navbar-nav li:hover a,
-.navbar-nav li.active a {
-  color: var(--yellow);
-}
-
-.navbar-toggler {
-  color: var(--white);
-}
-
-.navbar-toggler-icon {
-  background-image: url(../imagem/barras-brancas.png);
-}
 
 /* card */
 .card {
@@ -110,4 +95,19 @@ a {
     width: 100px;
     height: 100px;
   }
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+      display: flex !important;
+      flex-basis: auto;
+      justify-content: center;
+    }
+}
+.row>* {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 0%;
+  padding-right: calc(var(--bs-gutter-x)* .5);
+  padding-left: calc(var(--bs-gutter-x)* .5);
+  margin-top: var(--bs-gutter-y);
 }
