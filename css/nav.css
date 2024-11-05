@@ -30,4 +30,20 @@
     border-bottom: solid 2px var(--yellow);
     transition: 0.3s ease;
   }
-  
+  /* NavBar */
+.navbar-nav li a {
+  color: var(--white);
+}
+
+.navbar-nav li:hover a,
+.navbar-nav li.active a {
+  color: var(--yellow);
+}
+
+.navbar-toggler {
+  color: var(--white);
+}
+
+.navbar-toggler-icon {
+  background-image: url(../imagem/barras-brancas.png);
+}
