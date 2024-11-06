@@ -8,6 +8,12 @@
   --font-size: 14pt;
   --font-primary: "Nunito", "sans-serif";
   --font-secondary: "Roboto", "sans-serif";
+
+ /* Bootstrap */
+ --bs-primary: var(--yellow);
+ --bs-secondary: #b19645;
+
+
 }
 
 /* Reset: limpa stilo dos navegadores */
@@ -21,6 +27,7 @@
 body {
   font-size: var(--font-size);
   font-family: var(--font-primary);
+  
 }
 
 /* Itens comuns no site */
