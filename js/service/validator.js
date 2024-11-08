@@ -1,13 +1,7 @@
-validateName()
-//validateRequired()
-validateEmail()
-validateTel()
-validateSenha()
-confimacaoSenha()
-
-function validateName() {
+export function validateName() {
     const element = document.querySelector("#nameInput")
     const message = document.querySelector("#nameHelp")
+    if(!element) return
     element.addEventListener('blur', (e) => {
         const value = e.target.value
         console.log(value)
@@ -20,9 +14,10 @@ function validateName() {
     })
 }
 
-function validateEmail() {
+export function validateEmail() {
     const element = document.querySelector("#emailInput")
     const message = document.querySelector("#emailHelp")
+    if(!element) return
     element.addEventListener('keyup', (e) => {
         const value = e.target.value
         console.log(value)
@@ -36,9 +31,10 @@ function validateEmail() {
     })
 }
 
-function validateTel() {
+export function validateTel() {
     const element = document.querySelector('#telInput')
     const message = document.querySelector('#telHelp')
+    if(!element) return
     element.addEventListener('keyup', (e) => {
         element.setAttribute('maxlength', '15')
         const value = e.target.value
@@ -51,9 +47,10 @@ function validateTel() {
         message.innerHTML = error;
     })
 }
-function validateSenha() {
+export function validateSenha() {
     const element = document.querySelector('#passwordInput')
     const message = document.querySelector('#passwordHelp')
+    if(!element) return
     element.addEventListener('keyup', (e) => {
         const value = e.target.value
         console.log(value);
@@ -69,10 +66,11 @@ function validateSenha() {
 
     })
 }
-function confimacaoSenha(){
+export function confimacaoSenha(){
     const senhaBase = document.querySelector('#passwordInput')
     const element = document.querySelector('#confPasswordInput')
     const message = document.querySelector('#confPasswordHelp')
+    if(!element) return
     element.addEventListener('keyup', (e) =>{
         const senhaValue = senhaBase.value
         const confSenha = e.target.value
