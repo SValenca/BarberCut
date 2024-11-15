@@ -1,0 +1,44 @@
+[
+    {
+        "nome":"Barba",
+        "valor":10.00,
+        "descricao":"Lavagem para cabelos curto",
+        "fotos":"./imagem/Barba.jpg",
+        "duracao":1
+    },
+    {
+        "nome":"Lavagem curta",
+        "valor":13.00,
+        "descricao":"Lavagem para cabelos curto",
+        "fotos":"./imagem/Barba.jpg",
+        "duracao":2
+    },
+    {
+        "nome":"Lavagem curta",
+        "valor":13.00,
+        "descricao":"Lavagem para cabelos curto",
+        "fotos":"./imagem/Barba.jpg",
+        "duracao":2
+    },
+    {
+        "nome":"Lavagem curta",
+        "valor":13.00,
+        "descricao":"Lavagem para cabelos curto",
+        "fotos":"./imagem/Barba.jpg",
+        "duracao":2
+    },
+    {
+        "nome":"Lavagem curta",
+        "valor":13.00,
+        "descricao":"Lavagem para cabelos curto",
+        "fotos":"./imagem/Barba.jpg",
+        "duracao":2
+    },
+    {
+        "nome":"Lavagem curta",
+        "valor":13.00,
+        "descricao":"Lavagem para cabelos curto",
+        "fotos":"./imagem/Barba.jpg",
+        "duracao":2
+    }
+]
