@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/home.css">
  
-  <script src="./js/main.js" defer></script>
+  <script src="./js/main.js" type="module" defer></script>
 </head>
 
 <body>
@@ -42,28 +42,30 @@
       </div>
     </div>
   </header>
-
-
-  <section class="card-container container" id="services">
-    <div class="row">
-      <div class="col-md-4 sm-4">
-        <div class="card">
-          <a href="#">
-            <div class="card-img">
-              <img src="imagem/Barba.jpg" alt="">
-            </div>
-            <div class="card-content">
-              <h2>Barba</h2>
-              <p>
-                É uma forma de expressar a personalidade, realçar os traços do rosto e acompanhar as últimas
-                tendências da moda masculina.
-              </p>
-            </div>
-          </a>
+  
+  
+  <section id="services">
+    <div class="card-container container " id="card-component"></div>
+  </section>
+      <!-- <div class="row">
+        <div class="col-md-4 xs-4">
+          <div class="card">
+            <a href="#">
+              <div class="card-img">
+                <img src="imagem/Barba.jpg" alt="">
+              </div>
+              <div class="card-content">
+                <h2>Barba</h2>
+                <p>
+                  É uma forma de expressar a personalidade, realçar os traços do rosto e acompanhar as últimas
+                  tendências da moda masculina.
+                </p>
+              </div>
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="col-md-4 sm-4">
-        <div class="card">
+        <div class="col-md-4 xs-4">
+          <div class="card">
           <div class="card-img">
             <img src="imagem/taper-fade.jpg" alt="">
           </div>
@@ -76,7 +78,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4 sm-4">
+      <div class="col-md-4 xs-4">
         <div class="card">
           <div class="card-img">
             <img src="imagem/Mid-fade.jpeg" alt="">
@@ -90,7 +92,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4 sm-4">
+      <div class="col-md-4 xs-4">
         <div class="card">
           <div class="card-img">
             <img src="imagem/Burst-fade.jpg" alt="">
@@ -99,45 +101,45 @@
             <h2>Burst fade</h2>
             <p>É uma forma de expressar a personalidade, realçar os traços do rosto e acompanhar as últimas
               tendências da moda masculina.</p>
+            </div>
           </div>
         </div>
-      </div>
+        
+        <div class="col-md-4 xs-4">
+          <div class="card">
+            <div class="card-img">
+              <img src="imagem/taper-fade-reflexo.jpeg" alt="">
+            </div>
+            <div class="card-content">
+              <h2>Taper+Reflexo</h2>
+              <p>
+                É uma forma de expressar a personalidade, realçar os traços do rosto e acompanhar as últimas
+                tendências da moda masculina.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 xs-5">
+          <div class="card">
+            <div class="card-img">
+              <img src="imagem/mid-fade-nevou.jpeg" alt="">
+            </div>
+            <div class="card-content">
+              <h2>Mid+Nevou</h2>
+              <p>
+                É uma forma de expressar a personalidade, realçar os traços do rosto e acompanhar as últimas
+                tendências da moda masculina.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div> -->
       
-      <div class="col-md-4 sm-4">
-        <div class="card">
-          <div class="card-img">
-            <img src="imagem/taper-fade-reflexo.jpeg" alt="">
-          </div>
-          <div class="card-content">
-            <h2>Taper+Reflexo</h2>
-            <p>
-              É uma forma de expressar a personalidade, realçar os traços do rosto e acompanhar as últimas
-              tendências da moda masculina.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 sm-4">
-        <div class="card">
-          <div class="card-img">
-            <img src="imagem/mid-fade-nevou.jpeg" alt="">
-          </div>
-          <div class="card-content">
-            <h2>Mid+Nevou</h2>
-            <p>
-              É uma forma de expressar a personalidade, realçar os traços do rosto e acompanhar as últimas
-              tendências da moda masculina.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </section>
+    
 
   <section class="back-container container" id="contact">
     <div class="contact">
-      <div class="contact-map sm-4">
+      <div class="contact-map xs-4">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14698.874009396033!2d-43.54137014684487!3d-22.923751467887403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be6d2131c7ab9%3A0x2f5512e43d1ccc6b!2sR.%20China%2C%2014%20-%20Campo%20Grande%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2023017-060!5e0!3m2!1spt-BR!2sbr!4v1729156986779!5m2!1spt-BR!2sbr"
           width="98%" height="300" style="border:solid 4px black;" allowfullscreen="" loading="lazy"
