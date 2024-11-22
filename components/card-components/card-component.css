@@ -5,7 +5,7 @@
     gap: 20px;
     align-items: center;
     justify-content: center;
-    background-image: url(../imagem/background.jpeg);
+    /* background-image: url(../imagem/background.jpeg); */
     background-position: top;
     border: outset 4px var(--shadow);
     padding: 80px 0;
