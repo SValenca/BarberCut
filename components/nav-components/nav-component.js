@@ -33,8 +33,8 @@ export function navBarComponent() {
     element.innerHTML = navbar
 }
 export function navBarComponentTemplate() {
-    const localTemplate = 'components/nav-component/nav-component.html'
-    const localStyle = 'components/nav-component/nav-component.css'
+    const localTemplate = 'components/nav-components/nav-component.html'
+    const localStyle = 'components/nav-components/nav-component.css'
 
     const element = document.getElementById('navbar-component')
     element.innerHTML = ''
